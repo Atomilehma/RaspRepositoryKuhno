@@ -1,0 +1,6 @@
+Ensimmäiset demot HOORAY
+
+Raspin unboksaaminenhan oli joulu keskellä kesäkurssien alkua. Oli todella hienoa saada katsoa mitä kaikkea oli tarjolla ja kytkeä laitteita toimintakuntoon. Näin jopa sen vaivan, että latasin tuon rasbian-jessie imagen ja pyrin saamaan sen toimintaan. Tietenkään oma läppärini ei tunnistanut tuota muistikorttia, joten sama työ piti tehdä uudestaan toisella kannettavalla. Tämän jälkeen imagen siirtäminen muistikortille oli todella helppo projekti. 
+
+Raspi käynnistyi välittömästi ja jopa mobiilista jaettu netti toimi niin hyvin, että päivitykset sai kätevästi muutettua. Salasana muutettu ja voin sen varmaan tässäkin ilmoittaa: MokPerryPi
+
