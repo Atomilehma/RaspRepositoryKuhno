@@ -4,3 +4,23 @@ Raspin unboksaaminenhan oli joulu keskellä kesäkurssien alkua. Oli todella hieno
 
 Raspi käynnistyi välittömästi ja jopa mobiilista jaettu netti toimi niin hyvin, että päivitykset sai kätevästi muutettua. Salasana muutettu ja voin sen varmaan tässäkin ilmoittaa: MokPerryPi
 
+käytetyt tunnit 2h
+
+internetyhteyden jakamienn Windows koneella:
+tapaus win 10 (luultavasti aivan samat askeleet muillakin versioilla)
+	- Avaa network connections
+	- oikea klikkaus omaan yhdistettyyn internetyhteyteen
+	- properties
+	- sharing 
+	- "Allow other network users to connect through this computers internet connection"
+	- alavalikosta voi valita, mihin nettiyhteyteen jaetaan internet.
+	- ok 
+	
+vncserverin passu on: gitpassu
+
+Etäkäyttö:
+X:n asennus oli alkujaan hieman outo systeemi, sillä siinä piti käynnistää putty tottakai erikseen, eikä se tullut mieleen heti. Muutaman ohjeen (http://www.geo.mtu.edu/geoschem/docs/putty_install.html) luettuani saatiin tuo putty-yhteys toimimaan moitteettomasti. Komentorivietäkäytön avulla oli mukava asennella sitten tuo tightvncserver. Tässä huomasin ettei kaikkia päivityksiä oltu asenneltu suoraan vielä raspiin, vain updatet piti asentaa uusiksi. Tämän lisäksi tuli komplikaatioita tuon dpkg pakettien kanssa. Tämä ratkesi komennolla sudo dpkg --configure -a. Tämän jälkeen tuo tightvncserver onnistui.
+Kuitenkin todettiin, että sen konfiguroiminen on liian mutkikas operaatio, joten asensin xrdp:n raspiin (sudo apt-get install xrdp)
+Asennuksen jälkeen piti rasperry bootata. Tämän jälkeen windowsissa vain remote desktop connection päälle ja rasperryn IP siihen, jonka jälkeen etätyöpöytäkäyttö toimi ilman ongelmia. 
+
+käytetyt tunnit: 2h
