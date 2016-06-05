@@ -24,3 +24,27 @@ Kuitenkin todettiin, ett‰ sen konfiguroiminen on liian mutkikas operaatio, joten
 Asennuksen j‰lkeen piti rasperry bootata. T‰m‰n j‰lkeen windowsissa vain remote desktop connection p‰‰lle ja rasperryn IP siihen, jonka j‰lkeen et‰tyˆpˆyt‰k‰yttˆ toimi ilman ongelmia. 
 
 k‰ytetyt tunnit: 2h
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
+							Demo2
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
+Teht‰v‰ 3
+Demon ensimm‰inen vaihe oli saada valot vilkkumaan, t‰m‰ meni oikeastaan aikalailla vain piirilevyyn tutustumisessa
+
+=================================================
+Teht‰v‰ 4
+Seuraava teht‰v‰ oli laittaa valo vilkkumaan napin painalluksella, sek‰ liiketunnistinkoodi. Napin kohdalla kaikki tapahtui aika pitk‰lti esimerkkikoodin mukaisesti. Liiketunnistimen kanssa kikkailin jo v‰h‰n omiani. Esimerkit monimutkaistuivat mielest‰ni todella hyv‰ll‰ k‰yr‰ll‰.
+
+=================================================
+Teht‰v‰ 5
+Liikennevaloteht‰v‰ oli oikeastaan todella mielenkiintoinen tehd‰. Ensin piti mietti‰ valojen paikat piirilevyll‰ jne jne ja t‰m‰n j‰lkeen itse ohjelmallinen toteutus. Oma versioni on kohtuu derp, sill‰ se ei sis‰ll‰ yht‰‰n erillist‰ funktiota vaan koko setti on l‰tk‰isty yhden while true lauseen sis‰‰n. Kovinkaan kaunis t‰m‰ viritys ei siis ole, mutta toimii mielest‰ni ihan hyvin. Painiketta painettaessa aletaan etsim‰‰n autoja. Mik‰li niit‰ menee, niin odotetaan ja lis‰t‰‰n k‰rsiv‰llisyysmittariin lis‰‰ arvoja. Kun liikennevalojen k‰rsiv‰llisyysmittari tulee t‰yteen, se pakottaa autot pys‰htym‰‰n, jotta jalankulkijat p‰‰sisiv‰t tien yli. Liikennevaloteht‰v‰‰n tuli oikeastaan v‰h‰n vahingossa tehty‰ nuo bonusominaisuudet, sill‰ pakkohan liikesensoria ja merkkivaloa oli k‰ytt‰‰, kun ne nyt oli jo piiriss‰ kiinni. Motiivi tehd‰ t‰m‰ demo oli tosi korkea, sill‰ teht‰v‰nanto oli todella mielenkiintoinen. 
+
+K‰ytetyt tunnit: 
+	demolabrassa piirilevyn kasaus, sek‰ demot 3-4: 2h
+	Liikennevalokoodin tekeminen: 3h 
+	
+Tehdyt teht‰v‰t: 
+	teht‰v‰ 3 [X]
+	teht‰v‰ 4 [X]
+	teht‰v‰ 5 [X]
+	Bonusteht‰v‰t [X]
+
