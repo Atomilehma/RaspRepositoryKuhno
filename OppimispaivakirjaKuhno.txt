@@ -47,4 +47,40 @@ Tehdyt tehtävät:
 	tehtävä 4 [X]
 	tehtävä 5 [X]
 	Bonustehtävät [X]
+	Näytetty [X]
 
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
+							Demo3
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
+
+Tehtävä 6: Sensori toimintakuntoon ja dataa ruutuun.
+Sensorin sain toimintakuntoon tunnilla pienehköllä abustuksella. Datan saaminen sensorista oli kohtuullisen selkeä prosessi ja datan näkeminen ruudulla oli siistiä.
+
+Tehtävä 7: Sensorin dataa Google Sheetsiin
+Tämä tehtävänvaihe oli vähän monimutkaisempi, vaikka suurimmat ongelmat oli pelkästään google sheetin tekemisessä. Kiitos rasperry Pin selaimen, millä nuo docsin edittivalikot ei näy. Kun docs oli luotu ja jaettu ja keyt kuntoon, niin pythonin tutoriaalia hieman sorvaamalla data alkoi valumaan mukavasti tuonne sheetsiin. Koodi on siis suureksi osaksi samaa, kuin esimerkki python koodissa ja se löytyy koodikansiosta nimellä TempHumidityMOK.py.	
+	
+Tehtävä 8: Kamera käyttökuntoon
+Kameran käyttöönotto oli kohtuullisen yksinkertainen tehtävä ja ohjeistus tähän kameran käyttöönottoon oli niin hyvät, että kuvaa sai jo muutaman minuutin kikkailulla toimimaan.
+
+Tehtävä 9: Raspin kameran kuvaa ja videoa repoon
+Myös videon ottaminen onnistui helposti, sillä komento oli vain aavistuksen erilainen verrattuna kameran käyttöönottoon. 
+
+Tehtävä 10: Liikkeentunnistava kamera.
+Liikkeentunnistava kamera vaatikin jo hieman haasteellisemmalta. Onneksi ei niin paljoa. Otin hieman mallia liikkeentunnistuskoodista ja katsoin sen pohjalle mekaniikkaa, millä liikkettä tunnistettaessa kamera ottaa kuvan. Koska totesin, että mahdollisen liikkeen tunnistettaessa olisi mukava saada enemmänkin kuin yksi kuva mahdollisesta murtovarkaasta, linnusta, riistaeläimestä tai siitä mihin tarkoitukseen nyt koko kameraa käyttääkin, päätin määrittää laskurin, mikä juoksee kahteenkymmeneen ja alkaa alusta. Näin liikettä tunnistettaessa kansioon tallentuu kaksikymmentä kuvaa kohteesta. Juoksevan numeroinnin loppuessa siirrytään uudestaan alkuun. 
+
+Koodi löytyy koodikansiosta MotionDetectorCamera.py tiedostona ja kuvat ja videot löytyy KameraKuvat kansiosta
+
+Käytetyt tunnit: 2 ohjauksessa ja 4 kotona.
+Tehtävä6[X]
+Tehtävä7[X]
+Tehtävä8[X]
+Tehtävä9[X]
+Tehtävä10[X]
+Bonustehtävä5[]
+Bonustehtävä6[]
+
+
+
+	
+	
+	
