@@ -80,7 +80,42 @@ Bonustehtävä5[]
 Bonustehtävä6[]
 
 
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
+							Demo4
+===|||===|||===|||===|||===|||===|||===|||===|||===|||===
 
+Motion asennettu 1p
+	motionin asennus tapahtui aikalailla yksinkertaisesti ohjeiden mukaan.
+
+Motion tallentaa kuvat ja lokin eri tiedostoon kuin oletustiedosto. 1p
+	Raspissa on nyt kolme eri kansiota, mistä löytyy muutama liikkeentunnistuskuvasarja kun unohdin lisätä polun alkuun /home/. Kuvat tallentuu nyt kansioon /home/pi/MotionData/Pictures.
+
+Motion tallentaa 2 kuvaa ennen liikettä ja 5 sekunnin ajan (?) liikkeen jälkeen. 1p
+	Kahden kuvan tallentamiseen piti vain muuttaa  yhtä arvoa ja se toimii oletetusti. liikkeen jälkeen tallennetaan nyt kymmenen kuvaa, sillä kamera ottaa kaksi kuvaa sekunnissa.
+Kun Motion havaitsee liikettä, kuvataan 10 sekunnin video. 2p
+	Videon pituus piti vain muuttaa yhdestä arvosta ja mikäli tein sen nyt oikein, niin videot ovat 10 sekuntia pitkiä. En ole esikatsellut videoita missään vaiheessa tosin. 
+
+OpenCV asennettu onnistuneesti 2p
+	OpenCV on asennettu, mutta testiä ajaessa minulle tuli jokin virheilmoitus. Koska tuon asentamisessa meni aivan järkyttävästi aikaa, ei varsinaisten demojen tekemiselle tai tämän virheen selvittämiselle ollut yhtään ylimääräistä aikaa. siis OpenCV on asennettu, mutta tarkistusta en saanut läpi jostain syystä. 
+
+Tee kahden kuvan piirteiden vertailu. Käytä ORB-tunnistinta 2p
+Hanki kuva, jossa on kasvot. Löydä kasvot Haar-Cascadella. Python/samples-kansiosta löytyy valmiiksi ‘koulutettu’ tunnistin 3p
+
+Bonus: Kun Motion havaitsee liikettä kuvattavan alueen keskellä, pikamera kuvaa 15 sekunnin videon tapahtuneesta 1p
+Bonus: Ota kuva kasvoista picameralla ja tunnista kasvot siitä 2p	
 	
+Ajankäyttö tälle oli jo huomattavasti suurempi kuin muiden demojen sillä opencv vei hyvin suuren osan aikaa. 
+Tunnilla käytetty aika 2h
+Kotona käytetty aika ~8h	
+	
+Tehtävä1[X]
+Tehtävä2[X]
+Tehtävä3[X]
+Tehtävä4[X]
+Tehtävä5[/]
+Tehtävä6[]
+Bonustehtävä1[]
+Bonustehtävä2[]
+
 	
 	
